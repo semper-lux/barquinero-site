@@ -4,7 +4,7 @@ theme = "hugo-resume"
 languageCode = "en-us"
 PygmentsCodeFences = true
 PygmentsCodeFencesGuessSyntax = true
-PygmentsStyle = "monokai"
+PygmentsStyle = "arduino"
 enableGitInfo = false
 
 [params]
