@@ -1,0 +1,23 @@
+[
+  {
+    "grouping": "Embedded Software",
+    "skills": [
+      { "name": "C" },
+      { "name": "AUTOSAR" },
+      { "name": "DaVinci Configurator Pro and Developer" },
+      { "name": "Embedded Debugging (iSYSTEM, o-scope, Saleae, etc)" },
+      { "name": "Tasking and IAR Compilers " },
+      { "name": "CAN tools (CANoe, CANalyzer, vTestStudio, etc.)" },
+      { "name": "GNU Make" }
+    ]
+  },
+  {
+    "grouping": "PC/Process Software",
+    "skills": [
+      { "name": "C#" },
+      { "name": "Python" },
+      { "name": "Continuous integration (Jenkins)" },
+      { "name": "Project Planning/Agile Development" }
+    ]
+  }
+]

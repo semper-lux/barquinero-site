@@ -1,0 +1,39 @@
+title = "Joseph Starr"
+baseURL = "https://joe-starr.com/"
+theme = "hugo-resume"
+languageCode = "en-us"
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+enableGitInfo = false
+
+[params]
+address = "Plymouth, MI"
+email = ""
+favicon = "/img/jstarr_24x24.ico"
+firstName = "Joseph"
+lastName = "Starr"
+phone = ""
+profileImage = "/img/jstarr.jpg"
+showEducation = true
+showExperience = true
+showOpenSource = false
+showProjects = false
+showPublications = false
+showQr = false
+showSkills = true
+
+
+[[params.handles]]
+link = "https://www.linkedin.com/in/joseph-C-starr/"
+name = "LinkedIn"
+
+[[params.handles]]
+link = "https://github.com/Joecstarr/"
+name = "GitHub"
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[taxonomies]
+tag = "tags"

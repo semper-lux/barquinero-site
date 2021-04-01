@@ -1,0 +1,20 @@
+[
+  {
+    "role": "Developer",
+    "company": "Western Diversified Plastics",
+    "summary": "Process tooling and autosar development",
+    "range": "12/2020 - Present"
+  },
+  {
+    "role": "Project Engineer",
+    "company": "Vector North America",
+    "summary": "**Software Architect**\n* Responsible for the complete architectural design and direction of a customer project.\n* Analysis of customer requirements and negotiation of acceptance for those requirements. \n* Planning of team development activities. \n* Creation of functional and non-functional software requirements from decomposition of customer requirements. \n* Design, implementation and integration, in C, of custom software components and validation of those components.\n* Design and implementation of MCAL components. \n* Configuration and integration of MCAL, MICROSAR, Flash Bootloader, and 3rd party components.\n* Creation of Jenkins continuous regression testing infrastructure within a HiL environment (VT System).\n* Participation in internal, customer, supplier and OEM meetings.\n* Maintenance and reporting of requirements health metrics and code base health metrics. Including MISRA conformance using QAC. \n* Design and creation of internal infrastructure tools.\n\n **Flash Bootloader Integration**\n* Integration and testing of Off The Shelf software solutions with a focus on *Flash Bootloader* integrations. \n* Worked with new technologies such as Ethernet, CAN-FD, and Security. \n* Support customers in use of the *Flash Bootloader* product.",
+    "range": "01/2017 - 10/2020"
+  },
+  {
+    "role": "Software engineering Co-Op",
+    "company": "ZF",
+    "summary": "* Development of bootloader software for brake controllers with a focus on security.\n* Development of internal tools for data processing.",
+    "range": "05/2016 - 09/2016"
+  }
+]
