@@ -1,7 +1,8 @@
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
-  color: #868e96;
+  background: #282a36 !important;
+  color: #f8f8f2 !important;
 }
 
 @media (min-width: 992px) {
@@ -19,7 +20,7 @@ h5,
 h6 {
   font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
-  color: #343a40;
+  color: #f8f8f2
 }
 
 
@@ -44,7 +45,7 @@ h2 {
 }
 
 .list-social-icons a {
-  color: #495057;
+  color: #bd93f9
 }
 
 .list-social-icons a:hover {
@@ -109,7 +110,9 @@ h2 {
 }
 
 section.resume-section {
-  border-bottom: 1px solid #dee2e6;
+  /* border-bottom: 1px solid #282a36; */
+  background-color: #282a36 !important;
+  color: #f8f8f2 !important;
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
 }
@@ -121,6 +124,8 @@ section.resume-section .resume-item .resume-date {
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
+    background-color: #282a36 !important;
+    color: #f8f8f2 !important;
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
@@ -129,13 +134,15 @@ section.resume-section .resume-item .resume-date {
 
 @media (min-width: 992px) {
   section.resume-section {
+    background-color: #282a36 !important;
+    color: #f8f8f2 !important;
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
   }
 }
 
 .bg-primary {
-  background-color: #bd93f9 !important;
+  background-color: #44475a !important;
 }
 
 .text-primary {
