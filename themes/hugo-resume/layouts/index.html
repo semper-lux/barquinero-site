@@ -21,6 +21,18 @@
          {{ partial "sectionSummary" . }}
       {{ end }}
    {{ end }}
+   {{ if .Site.Params.showTalks }}
+      {{ with .Site.GetPage "section" "talks" }}
+          {{ .Scratch.Set "sectionId" "talks" }}
+          {{ partial "sectionSummary" . }}
+      {{ end }}
+   {{ end }}
+   {{ if .Site.Params.showTeaching }}
+      {{ with .Site.GetPage "section" "teaching" }}
+          {{ .Scratch.Set "sectionId" "teaching" }}
+          {{ partial "sectionSummary" . }}
+      {{ end }}
+   {{ end }}
    {{ if .Site.Params.showExperience }}
        {{ partial "portfolio/experience.html" . }}
    {{ end }}

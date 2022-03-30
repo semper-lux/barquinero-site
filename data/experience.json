@@ -1,9 +1,15 @@
 [
   {
+    "role": "Teaching Assistant",
+    "company": "University of Iowa",
+    "summary": "Lead undergraduate students in discussion sessions.",
+    "range": "8/2021 - Present"
+  },
+  {
     "role": "Developer",
     "company": "Western Diversified Plastics",
-    "summary": "Process tooling and autosar development",
-    "range": "12/2020 - Present"
+    "summary": "Process tooling and AUTOSAR development",
+    "range": "12/2020 - 8/2021"
   },
   {
     "role": "Project Engineer",

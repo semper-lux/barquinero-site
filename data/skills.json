@@ -16,8 +16,10 @@
     "skills": [
       { "name": "C#" },
       { "name": "Python" },
+      { "name": "Enterprise Architect" },
       { "name": "Continuous integration (Jenkins)" },
-      { "name": "Project Planning/Agile Development" }
+      { "name": "Project Planning/Agile Development" },
+      {"name":  "Unity"}
     ]
   }
 ]

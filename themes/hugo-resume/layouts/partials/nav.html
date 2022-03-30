@@ -33,6 +33,16 @@
             <a class="nav-link js-scroll-trigger" href="/#{{ default "Publications" .Site.Params.publicationsAlternateName }}">{{ default "Publications" .Site.Params.publicationsAlternateName }}</a>
           </li>
       {{ end }}
+      {{ if .Site.Params.showTalks }}
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#talks">Talks</a>
+          </li>
+      {{ end }}
+      {{ if .Site.Params.showTeaching }}
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#Teaching">Teaching</a>
+          </li>
+      {{ end }}
       {{ if .Site.Params.showExperience }}
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="/#experience">Experience</a>

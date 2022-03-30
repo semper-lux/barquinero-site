@@ -1,5 +1,5 @@
 ---
-title: Software Projects
+title: Teaching Information
 date: 2020-01-07T16:49:15.046Z
 link: NA
 description: NA
@@ -15,4 +15,4 @@ sitemap:
 This page represents the landing page for "contributions" section. It is also shown under the homepage header for "contributions". It should be therefore relatively short and sweet.
 
 -->
-<p>A collection of software projects. </p>
+<p>A collection of course descriptions for courses I've taught. </p>
