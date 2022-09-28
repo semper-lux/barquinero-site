@@ -33,7 +33,7 @@ experience:
             Lead undergraduate students in discussion sessions.
             Lead undergraduates as a primary instructor.
 
-  - title: Sowtware Engineer
+  - title: Software Engineer
     company: Western Diversified Plastics
     company_url: 'https://westerndp.com/'
     # company_logo: org-x
