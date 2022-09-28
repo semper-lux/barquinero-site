@@ -66,13 +66,13 @@ list of the vertices of the simplex
 
 We define a face of a simplex as a proper subset of \\(\sigma\\) that is
 
-`\[
+\\[
   \tau < \sigma
-\]`
+\\]
 when
-`\[
+\\[
   \LB a,b\RB \subset \LB a, \ b,\ c\RB
-\]`
+\\]
 
 ---
 
@@ -93,9 +93,9 @@ A Simplicial complex is a space \\(K\\) built of glued together simplices and mu
 
 ---
 
-It's convenient to have a combinitorial description for \\(K\\).
+It's convenient to have a combinatorial description for \\(K\\).
 This description is called an "abstract simplicial complex" and is just the
-collection of combinitorial descriptions of simplices of \\(K\\)
+collection of combinatorial descriptions of simplices of \\(K\\)
 
 ---
 
@@ -211,15 +211,15 @@ an arrow from \\(\alpha\\) to \\(\beta\\).
 
 ---
 
-### Main result of descrete Morse Theory
+### Main result of discrete Morse Theory
 
-Suppose \\(K\\) is a simplical complex with a discrete Morse function. Then \\(K\\) is homotopy equivlent to a CW complex with exactly one cell of dimmension \\(n\\) for each critical simplex of dimmension \\(n\\).
+Suppose \\(K\\) is a simplicial complex with a discrete Morse function. Then \\(K\\) is homotopy equivalent to a CW complex with exactly one cell of dimension \\(n\\) for each critical simplex of dimension \\(n\\).
 
 ---
 
 ### Simplicial collapse
 
-The simplical equivlent of a deformaion retraction is called a
+The simplicial equivalent of a deformation retraction is called a
 simplicial collapse.
 
 ---
@@ -270,13 +270,13 @@ Given a vector field we can simplicially collapse following the arrows.
 
 ### Combinatorial \\(d\\)-ball
 
-A complex \\(K\\) is a combinitorial d-ball if \\(K\\) and \\(\Delta^d\\) have isomorphic subdivisions.
+A complex \\(K\\) is a combinatorial d-ball if \\(K\\) and \\(\Delta^d\\) have isomorphic subdivisions.
 
-A combinitorial \\(\LP d-1\RP\\)-sphere is the boundary of a \\(d\\)-ball
+A combinatorial \\(\LP d-1\RP\\)-sphere is the boundary of a \\(d\\)-ball
 
 ---
 
-### Combinitorial \\(d\\)-manifold
+### combinatorial \\(d\\)-manifold
 
 A complex is a \\(d\\)-manifold if the link of every vertex is either a \\(d\\)-ball or \\(d\\)-sphere.
 
