@@ -1,6 +1,4 @@
-*.gem
-.bundle
-.sass-cache
-_site
-Gemfile.lock
-*.code-workspace
+/node_modules
+/public
+/resources
+/go.sum

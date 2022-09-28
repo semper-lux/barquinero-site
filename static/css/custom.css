@@ -1,0 +1,19 @@
+mjx-container[jax="CHTML"][display="true"] mjx-math{
+font-size: xx-large;
+}
+
+.present > p,li{
+text-align: left !important;
+}
+.row {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center
+}
+
+.column {
+  flex: 50%;
+  padding: 3%;
+}
