@@ -155,7 +155,7 @@ f\LP\LB e\RB\RP &= 6    \\
 <!-- @@@ Def box -->
 A discrete function
 \\[f:K\to \R\\]
-is called a discrete morse function if for every \\(\alpha \in K\\) of
+is called a discrete Morse function if for every \\(\alpha \in K\\) of
 degree \\(n\\) the following are true
 
 1. \\(\\#\LS \alpha^n<\beta^{n+1} \MM f\LP\beta\RP\leq f\LP\alpha\RP\RS\leq 1\\)
@@ -202,7 +202,7 @@ simplices in \\(K\\) such that each simplex is in at most one pair of \\(V\\).
 
 ---
 
-A discrete morse function induces a gradient vector field on \\(K\\). If \\(\alpha\\) is a non-critical simplex, and \\(\alpha<\beta\\) with \\(f\LP\beta\RP<f\LP\alpha\RP\\). We draw
+A discrete Morse function induces a gradient vector field on \\(K\\). If \\(\alpha\\) is a non-critical simplex, and \\(\alpha<\beta\\) with \\(f\LP\beta\RP<f\LP\alpha\RP\\). We draw
 an arrow from \\(\alpha\\) to \\(\beta\\).
 
 ---
@@ -268,9 +268,25 @@ Given a vector field we can simplicially collapse following the arrows.
 
 ---
 
+## Link of a vertex
+
+The star of a face \\(\tau\\) of \\(K\\) is the subcomplex of \\(K\\)
+consisting of all faces \\(\sigma\\) of \\(K\\) where \\(\tau < \sigma\\)
+
+The link of a face \\(\tau\\) of \\(K\\) is the subcomplex of \\(K\\)
+consisting of all faces of the star of \\(\tau\\) that do not intersect.
+
+---
+
+{{<centerimg "/DiscMorse/Complex_collapse.png" 500>}}
+
+
+---
+
 ### Combinatorial \\(d\\)-ball
 
-A complex \\(K\\) is a combinatorial d-ball if \\(K\\) and \\(\Delta^d\\) have isomorphic subdivisions.
+A complex \\(K\\) is a combinatorial d-ball if \\(K\\) and \\(\Delta^d\\) have
+isomorphic subdivisions.
 
 A combinatorial \\(\LP d-1\RP\\)-sphere is the boundary of a \\(d\\)-ball
 
@@ -278,6 +294,17 @@ A combinatorial \\(\LP d-1\RP\\)-sphere is the boundary of a \\(d\\)-ball
 
 ### combinatorial \\(d\\)-manifold
 
-A complex is a \\(d\\)-manifold if the link of every vertex is either a \\(d\\)-ball or \\(d\\)-sphere.
+A complex is a \\(d\\)-manifold if the link of every vertex is either a
+\\(d\\)-ball or \\(d\\)-sphere.
 
 ---
+
+### Sphere theorems
+
+Let \\(K\\) be a combinitorial \\(d\\)-manifold with boundary which simplicially
+collapses to a vertex. Then \\(K\\) is a combinitorial \\(d\\)-ball.
+
+Let \\(X\\) be a combinatorial \\(d\\)-manifold with a discrete with a
+discrete Morse function with exactly two critical simplices. Then \\(X\\)
+is a combinitorial sphere.
+
