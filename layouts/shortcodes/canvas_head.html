@@ -2,16 +2,16 @@
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/4.1.0/fabric.min.js"></script>
 <script type="text/javascript">
-  var addOnClick_pen = function(element,canvas) {
+  var addOnClick_pen = function(element,canvas,color) {
   element.onclick = function() {
-    canvas.freeDrawingBrush.color = "#bd93f9";
+    canvas.freeDrawingBrush.color = color;
     canvas.freeDrawingBrush.width = 2;
   };
 };
-  var addOnClick_erase = function(element,canvas) {
+  var addOnClick_erase = function(element,canvas,size) {
   element.onclick = function() {
     canvas.freeDrawingBrush.color = "#282a36";
-    canvas.freeDrawingBrush.width = 8;
+    canvas.freeDrawingBrush.width = size;
   };
 };
   window.onload = function () {
@@ -30,11 +30,20 @@
       canvas.isDrawingMode = true;
       canvas.freeDrawingBrush.color = "#bd93f9";
 
-      var button_eraser = document.getElementById(canvas_tag.id + "-eraser");
-      var button_pen = document.getElementById(canvas_tag.id + "-pen");
-
-      addOnClick_pen(button_pen,canvas);
-      addOnClick_erase(button_eraser,canvas)
+      var button_pen = document.getElementById(canvas_tag.id + "-pen0");
+      addOnClick_pen(button_pen,canvas,"#bd93f9");
+      button_pen = document.getElementById(canvas_tag.id + "-pen1");
+      addOnClick_pen(button_pen,canvas,"#50fa7b");
+      button_pen = document.getElementById(canvas_tag.id + "-pen2");
+      addOnClick_pen(button_pen,canvas,"#ff79c6");
+      button_pen = document.getElementById(canvas_tag.id + "-pen3");
+      addOnClick_pen(button_pen,canvas,"#ff5555");
+      button_pen = document.getElementById(canvas_tag.id + "-pen4");
+      addOnClick_pen(button_pen,canvas,"#ffb86c");
+      var button_eraser = document.getElementById(canvas_tag.id + "-eraserS");
+      addOnClick_erase(button_eraser,canvas,8)
+      button_eraser = document.getElementById(canvas_tag.id + "-eraserB");
+      addOnClick_erase(button_eraser,canvas,20)
     }
   }
 </script>
