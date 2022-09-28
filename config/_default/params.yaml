@@ -7,7 +7,7 @@
 
 appearance:
   theme_day: minimal
-  theme_night: minimal
+  theme_night: dracula
   font: minimal
   font_size: s
 

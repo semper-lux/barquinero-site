@@ -70,4 +70,7 @@ experience:
 
 design:
   columns: '2'
+  card:
+    background:
+      color: '#44475a'
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Discrete Morse Theory"
 date: "2022-09-02"
-summary: "Discrete Morse Theory"
+summary: "Brief overview of Discrete Morse Theory"
 tags: [
     "Talks",
 ]
@@ -124,11 +124,11 @@ A discrete function \\(f\\) on a simplicial complex \\(K\\) assigns a number to 
 
 ---
 
-<div class="row">
-<div class="collumn">
+<div class="sliderow">
+<div class="slidecollumn">
 {{<centerimg "/DiscMorse/Complex_f.png" 400>}}
 </div>
-<div class="collumn" style="font-size: xx-large;">
+<div class="slidecollumn" style="font-size: xx-large;">
 \(
 \begin{aligned}
 f\LP\LB b,c,d\RB\RP &= 5\\
@@ -164,11 +164,11 @@ degree \\(n\\) the following are true
 
 ---
 
-<div class="row">
-<div class="collumn">
+<div class="sliderow">
+<div class="slidecollumn">
 {{<centerimg "/DiscMorse/Complex_f.png" 400>}}
   </div>
-<div class="collumn">
+<div class="slidecollumn">
 {{<centerimg "/DiscMorse/Complex_f_Not_Morse.png" 400>}}
   </div>
 </div>
