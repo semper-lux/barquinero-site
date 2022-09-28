@@ -14,7 +14,8 @@ slides:
   highlight_style: dracula
 ---
 
-{{<mathjax_support>}}
+{{<mathjax_support>}} {{<canvas_head>}}
+
 
 <p hidden>
 `\(\newcommand{\N}{\mathbb{N}}
