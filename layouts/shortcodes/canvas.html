@@ -1,10 +1,21 @@
-<div class="canvasdiv">
-  <button id="{{ index .Params 0 }}-eraserS" style="border-radius: 12px;background-color: #44475a;">Small Eraser</button>
-  <button id="{{ index .Params 0 }}-eraserB" style="border-radius: 12px;background-color: #44475a;">Big Eraser</button>
-  <button id="{{ index .Params 0 }}-pen0"    style="border-radius: 12px;background-color: #bd93f9;">Pen</button>
-  <button id="{{ index .Params 0 }}-pen1"    style="border-radius: 12px;background-color: #50fa7b;">Pen</button>
-  <button id="{{ index .Params 0 }}-pen2"    style="border-radius: 12px;background-color: #ff79c6;">Pen</button>
-  <button id="{{ index .Params 0 }}-pen3"    style="border-radius: 12px;background-color: #ff5555;">Pen</button>
-  <button id="{{ index .Params 0 }}-pen4"    style="border-radius: 12px;background-color: #ffb86c;">Pen</button>
-  <canvas id="{{ index .Params 0 }}"        style="border:1px solid #44475a; width: 100%;height: auto;"></canvas>
+<div class="canvasdiv canvrow">
+  <div class="canvcolumn">
+    <div><button id="{{ index .Params 0 }}-eraserS" style="border-radius: 12px;background-color: #44475a;">Small
+        Eraser</button></div>
+    <div><button id="{{ index .Params 0 }}-eraserB" style="border-radius: 12px;background-color: #44475a;">Big
+        Eraser</button></div>
+    <div><button id="{{ index .Params 0 }}-pen0" style="border-radius: 12px;background-color: #bd93f9;">Pen</button>
+    </div>
+    <div><button id="{{ index .Params 0 }}-pen1" style="border-radius: 12px;background-color: #50fa7b;">Pen</button>
+    </div>
+    <div><button id="{{ index .Params 0 }}-pen2" style="border-radius: 12px;background-color: #ff79c6;">Pen</button>
+    </div>
+    <div><button id="{{ index .Params 0 }}-pen3" style="border-radius: 12px;background-color: #ffb86c;">Pen</button>
+    </div>
+    <div><button id="{{ index .Params 0 }}-laser" style="border-radius: 12px;background-color: #ff5555;">Laser</button>
+    </div>
+  </div>
+  <div class="canvcollumn">
+    <canvas id="{{ index .Params 0 }}" style="border:1px solid #44475a; width: 100%;height: auto;"></canvas>
+  </div>
 </div>

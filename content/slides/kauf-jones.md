@@ -17,6 +17,9 @@ slides:
 {{<mathjax_support>}}
 {{<canvas_head>}}
 
+<!-- {{<canvas Kauf_ex1>}} -->
+
+
 <p hidden>
 `\(\newcommand{\N}{\mathbb{N}}
 \newcommand{\Z}{\mathbb{Z}}
@@ -74,7 +77,7 @@ and is characterized by
 
 ---
 
-{{<canvas Kauf_ex>}}
+{{<canvas Kauf_ex2>}}
 
 
 

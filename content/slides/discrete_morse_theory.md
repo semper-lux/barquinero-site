@@ -41,6 +41,40 @@ slides:
 
 ---
 
+### CW Complex
+
+---
+
+### n-Cell
+
+An \\(n\\)-cell is open \\(n\\)-ball with boundary \\(S^{n-1}\\).
+
+---
+
+{{<centerimg "/DiscMorse/Cells.png" 600>}}
+
+---
+
+### Cell complex
+
+A cell complex is a space constructed from gluing together cells.
+
+This construction works as follows:
+
+* Start with a collection of \\(0\\)-cell, \\(X^0\\), the zero skeleton
+* Attach to the \\(X^{n-1}\\), a collection of \\(n\\)-cells, mapping the boundary of each \\(n\\)-cell to the \\(n-1\\) skeleton.
+
+---
+
+{{<centerimg "/DiscMorse/wedge.png" 600>}}
+
+---
+
+{{<centerimg "/DiscMorse/sphere.png" 600>}}
+
+
+---
+
 ### Simplicial Complex
 
 ---
@@ -126,10 +160,10 @@ A discrete function \\(f\\) on a simplicial complex \\(K\\) assigns a number to 
 ---
 
 <div class="sliderow">
-<div class="slidecollumn">
+<div class="slidecolumn">
 {{<centerimg "/DiscMorse/Complex_f.png" 400>}}
 </div>
-<div class="slidecollumn" style="font-size: xx-large;">
+<div class="slidecolumn" style="font-size: xx-large;">
 \(
 \begin{aligned}
 f\LP\LB b,c,d\RB\RP &= 5\\
@@ -166,10 +200,10 @@ degree \\(n\\) the following are true
 ---
 
 <div class="sliderow">
-<div class="slidecollumn">
+<div class="slidecolumn">
 {{<centerimg "/DiscMorse/Complex_f.png" 400>}}
   </div>
-<div class="slidecollumn">
+<div class="slidecolumn">
 {{<centerimg "/DiscMorse/Complex_f_Not_Morse.png" 400>}}
   </div>
 </div>
@@ -279,12 +313,12 @@ consisting of all faces of the star of \\(\tau\\) that do not intersect.
 
 ---
 
-{{<centerimg "/DiscMorse/Complex_collapse.png" 500>}}
+{{<centerimg "/DiscMorse/link-star.png" 500>}}
 
 
 ---
 
-### Combinatorial \\(d\\)-ball
+### Combinatorial d-ball
 
 A complex \\(K\\) is a combinatorial d-ball if \\(K\\) and \\(\Delta^d\\) have
 isomorphic subdivisions.
@@ -293,7 +327,7 @@ A combinatorial \\(\LP d-1\RP\\)-sphere is the boundary of a \\(d\\)-ball
 
 ---
 
-### combinatorial \\(d\\)-manifold
+### combinatorial d-manifold
 
 A complex is a \\(d\\)-manifold if the link of every vertex is either a
 \\(d\\)-ball or \\(d\\)-sphere.
@@ -309,3 +343,10 @@ Let \\(X\\) be a combinatorial \\(d\\)-manifold with a discrete with a
 discrete Morse function with exactly two critical simplices. Then \\(X\\)
 is a combinitorial sphere.
 
+---
+
+### References
+
+* [Robin Forman, A user's guide to discrete Morse theory](https://math.rice.edu/~forman/user.ps)
+* [Robin Forman, Morse Theory for Cell Complexes](https://doi.org/10.1006/aima.1997.1650)
+* [Jean Gallier & Jocelyn Quaintance, Aspects of Convex Geometry ](https://www.cis.upenn.edu/~jean/gbooks/convexpoly.html)

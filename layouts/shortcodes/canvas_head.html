@@ -1,36 +1,46 @@
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/4.1.0/fabric.min.js"></script>
 <script type="text/javascript">
-  var addOnClick_pen = function (element, canvas, color) {
+  var addOnClick_pen = function (element, canvas, color, size = 2) {
     element.onclick = function () {
+      canvas.freeDrawingBrush = new fabric.PencilBrush(canvas);
+      canvas.freeDrawingBrush.color = color;
+      canvas.freeDrawingBrush.width = size;
+    };
+  };
+  var addOnClick_laser = function (element, canvas, color) {
+    element.onclick = function () {
+      var laser = new fabric.PencilBrush(canvas);
+      canvas.freeDrawingBrush = laser
       canvas.freeDrawingBrush.color = color;
       canvas.freeDrawingBrush.width = 2;
     };
   };
-  var addOnClick_erase = function (element, canvas, size) {
-    element.onclick = function () {
-      canvas.freeDrawingBrush.color = "#282a36";
-      canvas.freeDrawingBrush.width = size;
-    };
-  };
+
   window.onload = function () {
-    Reveal.configure({ touch: false});
-    Reveal.configure({ transition: 'none'});
+    Reveal.configure({ touch: false });
+    Reveal.configure({ transition: 'none' });
 
     const allTags = document.getElementsByClassName("canvasdiv");
 
     for (var i = 0; i < allTags.length; i++) {
-      console.log(i)
       var canvas_tag = allTags[i].getElementsByTagName("canvas")[0];
       var canvas = new fabric.Canvas(canvas_tag, {
         width: 1000,
-        height: 900,
-        allowTouchScrolling: true,
+        height: 1000,
+        allowTouchScrolling: false,
       })
+      // present = document.getElementsByClassName("present");
+      // canvas.setHeight(present[0].Height);
+      // canvas.setWidth(present[0].Width);
+      // canvas.renderAll();
       const ctx = canvas.getContext('2d');
       ctx.imageSmoothingEnabled = true;
+
+
       canvas.isDrawingMode = true;
-      canvas.freeDrawingBrush.color = "#bd93f9";
+      canvas.freeDrawingBrush.color = "#ffb86c";
+
 
       var button_pen = document.getElementById(canvas_tag.id + "-pen0");
       addOnClick_pen(button_pen, canvas, "#bd93f9");
@@ -39,13 +49,14 @@
       button_pen = document.getElementById(canvas_tag.id + "-pen2");
       addOnClick_pen(button_pen, canvas, "#ff79c6");
       button_pen = document.getElementById(canvas_tag.id + "-pen3");
-      addOnClick_pen(button_pen, canvas, "#ff5555");
-      button_pen = document.getElementById(canvas_tag.id + "-pen4");
       addOnClick_pen(button_pen, canvas, "#ffb86c");
-      var button_eraser = document.getElementById(canvas_tag.id + "-eraserS");
-      addOnClick_erase(button_eraser, canvas, 8)
-      button_eraser = document.getElementById(canvas_tag.id + "-eraserB");
-      addOnClick_erase(button_eraser, canvas, 20)
+      button_pen = document.getElementById(canvas_tag.id + "-laser");
+      addOnClick_laser(button_pen, canvas, "#ff5555");
+      button_pen = document.getElementById(canvas_tag.id + "-eraserS");
+      addOnClick_pen(button_pen, canvas, "#282a36", 8)
+      button_pen = document.getElementById(canvas_tag.id + "-eraserB");
+      addOnClick_pen(button_pen, canvas, "#282a36", 20)
     }
+
   }
 </script>
