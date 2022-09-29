@@ -113,7 +113,7 @@ when
 
 ### Simplicial complex
 
-A Simplicial complex is a space \\(K\\) built of glued together simplices and must satisfy
+A simplicial complex is a space \\(K\\) built of glued together simplices and must satisfy
 
 1. If \\(\tau\\) is the face of a simplex $\sigma \in K$ then \\(\tau\in K\\)
 2. If \\(\sigma, \tau \in K\\) then \\(\sigma\cap \tau\\) is a face of \\(\sigma\\) and \\(\tau\\).
