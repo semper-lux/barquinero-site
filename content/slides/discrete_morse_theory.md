@@ -93,7 +93,7 @@ formally
 
 We can also describe an \\(n\\) simplex combinatorially as a
 list of the vertices of the simplex
-\\[\sigma = \LB e_0,\ e_1,\ \cdots e_n\RB\\]
+\\[\sigma = \LB e_0,\ e_1,\ \cdots, e_n\RB\\]
 
 ---
 
@@ -192,8 +192,8 @@ A discrete function
 \\[f:K\to \R\\]
 is called a discrete Morse function if for every \\(n\\)-simplex \\(\alpha^n \in K\\) the following are true
 
-1. \\(\\#\LS \alpha^n<\beta^{n+1} \MM f\LP\beta\RP\leq f\LP\alpha\RP\RS\leq 1\\)
-2. \\(\\#\LS \alpha^n>\gamma^{n-1} \MM f\LP\gamma\RP\geq f\LP\alpha\RP\RS\leq 1\\)
+1. \\(\\#\LS \alpha^n<\beta^{n+1} \MM f\LP\beta^{n+1}\RP\leq f\LP\alpha^n\RP\RS\leq 1\\)
+2. \\(\\#\LS \alpha^n>\gamma^{n-1} \MM f\LP\gamma^{n-1}\RP\geq f\LP\alpha^n\RP\RS\leq 1\\)
 <!-- endbox -->
 
 ---
@@ -214,8 +214,8 @@ is called a discrete Morse function if for every \\(n\\)-simplex \\(\alpha^n \in
 <!-- @@@ Def box -->
 An \\(n-\\)simplex \\(\alpha^n\\), of a complex \\(K\\), is critical under a discrete Morse function \\(f\\) if the following are true
 
-1. \\(\\#\LS \alpha^n<\beta^{n+1} \MM f\LP\beta\RP\leq f\LP\alpha\RP\RS=0\\)
-2. \\(\\#\LS \alpha^n>\gamma^{n-1} \MM f\LP\gamma\RP\geq f\LP\alpha\RP\RS=0\\)
+1. \\(\\#\LS \alpha^n<\beta^{n+1} \MM f\LP\beta^{n+1}\RP\leq f\LP\alpha^n\RP\RS=0\\)
+2. \\(\\#\LS \alpha^n>\gamma^{n-1} \MM f\LP\gamma^{n-1}\RP\geq f\LP\alpha^n\RP\RS=0\\)
 
 We should note that for all the \\(\alpha\in K\\) at least one of \\(1.\\) and \\(2.\\) must be true.
 
@@ -238,8 +238,8 @@ simplices in \\(K\\) such that each simplex is in at most one pair of \\(V\\).
 
 A discrete Morse function induces a gradient vector field on \\(K\\).
 
-If \\(\alpha\\) is a non-critical simplex, and \\[\alpha<\beta\\] with \\[f\LP\beta\RP<f\LP\alpha\RP\\]. We draw
-an arrow from \\(\alpha\to \beta\\).
+If \\(\alpha\\) is a non-critical simplex, and \\[\alpha<\beta\\] with \\[f\LP\beta\RP<f\LP\alpha\RP\\]
+We draw an arrow from \\(\alpha\to \beta\\).
 
 ---
 
@@ -283,8 +283,9 @@ A simplex \\(\tau\\) of a simplicial complex \\(K\\) is called a free face if \\
 
 ### Collapse
 
-If \\(\tau\\) is a free face of \\(\sigma\\) we can collapse \\(K \searrow K^\prime\\) by the follwing set operation
-  \\[K^\prime = K-\LP\tau \cup \sigma\RP\\]
+If \\(\tau\\) is a free face of \\(\sigma\\) we can collapse \\(K \searrow K^\prime\\) by the following set operation
+
+\\[K^\prime = K-\LP\tau \cup \sigma\RP\\]
 
 ---
 
@@ -348,8 +349,8 @@ A combinatorial \\(\LP d-1\RP\\)-sphere is the boundary of a \\(d\\)-ball
 
 ### combinatorial d-manifold
 
-A complex is a \\(d\\)-manifold if the link of every vertex is either a
-\\(d\\)-ball or \\(d\\)-sphere.
+A complex is a \\((d-1)\\)-manifold if the link of every vertex is either a
+\\((d-1)\\)-ball or \\((d-1)\\)-sphere.
 
 ---
 
