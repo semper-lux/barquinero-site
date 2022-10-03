@@ -247,13 +247,6 @@ We draw an arrow from \\(\alpha\to \beta\\).
 
 ---
 
-### Main result of discrete Morse Theory
-
-Suppose \\(K\\) is a simplicial complex with a discrete Morse function. Then \\(K\\) is homotopy equivalent to a CW complex with exactly one cell of dimension \\(n\\) for each critical simplex of dimension \\(n\\).
-
-
----
-
 ### Simplicial collapse
 
 The simplicial equivalent of a deformation retraction is called a
@@ -303,6 +296,13 @@ Given a vector field we can simplicially collapse following the arrows.
 
 ---
 
+### Main result of discrete Morse Theory
+
+Suppose \\(K\\) is a simplicial complex with a discrete Morse function. Then \\(K\\) is homotopy equivalent to a CW complex with exactly one cell of dimension \\(n\\) for each critical simplex of dimension \\(n\\).
+
+
+---
+
 ### Sphere Theorems
 
 ---
@@ -349,7 +349,7 @@ A combinatorial \\(\LP d-1\RP\\)-sphere is the boundary of a \\(d\\)-ball
 
 ### combinatorial d-manifold
 
-A complex is a \\((d-1)\\)-manifold if the link of every vertex is either a
+A complex is a \\(d\\)-manifold if the link of every vertex is either a
 \\((d-1)\\)-ball or \\((d-1)\\)-sphere.
 
 ---
@@ -358,6 +358,8 @@ A complex is a \\((d-1)\\)-manifold if the link of every vertex is either a
 
 Let \\(K\\) be a combinitorial \\(d\\)-manifold with boundary which simplicially
 collapses to a vertex. Then \\(K\\) is a combinitorial \\(d\\)-ball.
+
+---
 
 Let \\(X\\) be a combinatorial \\(d\\)-manifold with a discrete with a
 discrete Morse function with exactly two critical simplices. Then \\(X\\)
