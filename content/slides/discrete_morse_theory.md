@@ -41,7 +41,7 @@ slides:
 
 ---
 
-### CW Complex
+<!-- ### CW Complex
 
 ---
 
@@ -73,7 +73,7 @@ This construction works as follows:
 {{<centerimg "/DiscMorse/sphere.png" 600>}}
 
 
----
+--- -->
 
 ### Simplicial Complex
 
@@ -99,7 +99,7 @@ list of the vertices of the simplex
 
 ### Face of a Simplex
 
-We define a face of a simplex as a proper subset of \\(\sigma\\) that is
+We define a face \\(\tau \\), of a simplex \\(\sigma\\), as a proper subset of \\(\sigma\\) that is
 
 \\[
   \tau < \sigma
@@ -113,7 +113,7 @@ when
 
 ### Simplicial complex
 
-A simplicial complex is a space \\(K\\) built of glued together simplices and must satisfy
+A simplicial complex is a space \\(K\\) built from glued together simplices and must satisfy
 
 1. If \\(\tau\\) is the face of a simplex $\sigma \in K$ then \\(\tau\in K\\)
 2. If \\(\sigma, \tau \in K\\) then \\(\sigma\cap \tau\\) is a face of \\(\sigma\\) and \\(\tau\\).
@@ -190,8 +190,7 @@ f\LP\LB e\RB\RP &= 6    \\
 <!-- @@@ Def box -->
 A discrete function
 \\[f:K\to \R\\]
-is called a discrete Morse function if for every \\(\alpha \in K\\) of
-degree \\(n\\) the following are true
+is called a discrete Morse function if for every \\(n\\)-simplex \\(\alpha^n \in K\\) the following are true
 
 1. \\(\\#\LS \alpha^n<\beta^{n+1} \MM f\LP\beta\RP\leq f\LP\alpha\RP\RS\leq 1\\)
 2. \\(\\#\LS \alpha^n>\gamma^{n-1} \MM f\LP\gamma\RP\geq f\LP\alpha\RP\RS\leq 1\\)
@@ -213,7 +212,7 @@ degree \\(n\\) the following are true
 ### Definition of a Critical simplex
 
 <!-- @@@ Def box -->
-An \\(n-\\)simplex \\(\alpha^n\\) is critical if the following are true
+An \\(n-\\)simplex \\(\alpha^n\\), of a complex \\(K\\), is critical under a discrete Morse function \\(f\\) if the following are true
 
 1. \\(\\#\LS \alpha^n<\beta^{n+1} \MM f\LP\beta\RP\leq f\LP\alpha\RP\RS=0\\)
 2. \\(\\#\LS \alpha^n>\gamma^{n-1} \MM f\LP\gamma\RP\geq f\LP\alpha\RP\RS=0\\)
@@ -237,8 +236,10 @@ simplices in \\(K\\) such that each simplex is in at most one pair of \\(V\\).
 
 ---
 
-A discrete Morse function induces a gradient vector field on \\(K\\). If \\(\alpha\\) is a non-critical simplex, and \\(\alpha<\beta\\) with \\(f\LP\beta\RP<f\LP\alpha\RP\\). We draw
-an arrow from \\(\alpha\\) to \\(\beta\\).
+A discrete Morse function induces a gradient vector field on \\(K\\).
+
+If \\(\alpha\\) is a non-critical simplex, and \\[\alpha<\beta\\] with \\[f\LP\beta\RP<f\LP\alpha\RP\\]. We draw
+an arrow from \\(\alpha\to \beta\\).
 
 ---
 
@@ -250,6 +251,7 @@ an arrow from \\(\alpha\\) to \\(\beta\\).
 
 Suppose \\(K\\) is a simplicial complex with a discrete Morse function. Then \\(K\\) is homotopy equivalent to a CW complex with exactly one cell of dimension \\(n\\) for each critical simplex of dimension \\(n\\).
 
+
 ---
 
 ### Simplicial collapse
@@ -259,7 +261,7 @@ simplicial collapse.
 
 ---
 
-### Maximal Face (Facet)
+### Maximal Face
 
 A face \\(\sigma\in K\\) is called maximal if there is no \\(\beta\in K\\) so that \\(\sigma<\beta\\).
 
@@ -281,7 +283,8 @@ A simplex \\(\tau\\) of a simplicial complex \\(K\\) is called a free face if \\
 
 ### Collapse
 
-If \\(\tau\\) is a free face of \\(\sigma\\) we can collapse \\(K_1 \searrow K_2\\) by removing \\(\gamma\\) where \\(\tau<\gamma<\sigma\\).
+If \\(\tau\\) is a free face of \\(\sigma\\) we can collapse \\(K \searrow K^\prime\\) by the follwing set operation
+  \\[K^\prime = K-\LP\tau \cup \sigma\RP\\]
 
 ---
 
@@ -303,17 +306,33 @@ Given a vector field we can simplicially collapse following the arrows.
 
 ---
 
-## Link of a vertex
+## Star of a face
 
 The star of a face \\(\tau\\) of \\(K\\) is the subcomplex of \\(K\\)
-consisting of all faces \\(\sigma\\) of \\(K\\) where \\(\tau < \sigma\\)
-
-The link of a face \\(\tau\\) of \\(K\\) is the subcomplex of \\(K\\)
-consisting of all faces of the star of \\(\tau\\) that do not intersect.
+consisting of all faces \\(\sigma\\) of \\(K\\) where \\(\tau < \sigma\\), as well as all faces of \\(\sigma\\).
 
 ---
 
-{{<centerimg "/DiscMorse/link-star.png" 500>}}
+{{<centerimg "/DiscMorse/star.png" 500>}}
+
+---
+
+{{<centerimg "/DiscMorse/star2.png" 500>}}
+
+
+---
+## Link of a face
+
+The link of a face \\(\tau\\) of \\(K\\) is the subcomplex of \\(K\\)
+consisting of all faces of the star of \\(\tau\\) that do not intersect \\(\tau\\).
+
+---
+
+{{<centerimg "/DiscMorse/link.png" 500>}}
+
+---
+
+{{<centerimg "/DiscMorse/link2.png" 500>}}
 
 
 ---
