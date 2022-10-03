@@ -313,11 +313,11 @@ consisting of all faces \\(\sigma\\) of \\(K\\) where \\(\tau < \sigma\\), as we
 
 ---
 
-{{<centerimg "/DiscMorse/star.png" 500>}}
+{{<centerimg "/DiscMorse/star.png" 600>}}
 
 ---
 
-{{<centerimg "/DiscMorse/star2.png" 500>}}
+{{<centerimg "/DiscMorse/star2.png" 600>}}
 
 
 ---
@@ -328,11 +328,11 @@ consisting of all faces of the star of \\(\tau\\) that do not intersect \\(\tau\
 
 ---
 
-{{<centerimg "/DiscMorse/link.png" 500>}}
+{{<centerimg "/DiscMorse/link.png" 600>}}
 
 ---
 
-{{<centerimg "/DiscMorse/link2.png" 500>}}
+{{<centerimg "/DiscMorse/link2.png" 600>}}
 
 
 ---
