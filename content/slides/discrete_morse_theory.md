@@ -160,26 +160,32 @@ A discrete function \\(f\\) on a simplicial complex \\(K\\) assigns a number to 
 ---
 
 <div class="sliderow">
-<div class="slidecolumn">
-{{<centerimg "/DiscMorse/Complex_f.png" 400>}}
-</div>
-<div class="slidecolumn" style="font-size: xx-large;">
+<div class="slidecolumn" style="
+font-size: xx-large;
+align-items: right;
+font-size: x-large;
+min-width:50% !important;
+margin-left: auto;
+margin-right: auto;">
 \(
 \begin{aligned}
-f\LP\LB b,c,d\RB\RP &= 5\\
-f\LP\LB b,c\RB\RP &= 4  \\
-f\LP\LB b,d\RB\RP &= 5  \\
-f\LP\LB c,d\RB\RP &= 3  \\
-f\LP\LB a,c\RB\RP &= 1  \\
-f\LP\LB a,b\RB\RP &= 1  \\
-f\LP\LB d,e\RB\RP &= 5  \\
-f\LP\LB a\RB\RP &= 0    \\
-f\LP\LB b\RB\RP &= 2    \\
-f\LP\LB c\RB\RP &= 2    \\
-f\LP\LB d\RB\RP &= 4    \\
-f\LP\LB e\RB\RP &= 6    \\
+f\LP\LB b,c,d\RB\RP &= 5    \\
+  f\LP\LB b,c\RB\RP &= 4    \\
+  f\LP\LB b,d\RB\RP &= 5    \\
+  f\LP\LB c,d\RB\RP &= 3    \\
+  f\LP\LB a,c\RB\RP &= 1    \\
+  f\LP\LB a,b\RB\RP &= 1    \\
+  f\LP\LB d,e\RB\RP &= 5    \\
+    f\LP\LB a\RB\RP &= 0    \\
+    f\LP\LB b\RB\RP &= 2    \\
+    f\LP\LB c\RB\RP &= 2    \\
+    f\LP\LB d\RB\RP &= 4    \\
+    f\LP\LB e\RB\RP &= 6    \\
 \end{aligned}
 \)
+</div>
+<div class="slidecolumn">
+{{<centerimg "/DiscMorse/Complex_f.png" 400>}}
 </div>
 </div>
 
@@ -199,13 +205,47 @@ is called a discrete Morse function if for every \\(n\\)-simplex \\(\alpha^n \in
 ---
 
 <div class="sliderow">
-<div class="slidecolumn">
-{{<centerimg "/DiscMorse/Complex_f.png" 400>}}
-  </div>
-<div class="slidecolumn">
-{{<centerimg "/DiscMorse/Complex_f_Not_Morse.png" 400>}}
-  </div>
+<div class="slidecolumn" style="
+align-items: left;
+font-size: x-large;
+min-width:50% !important;
+">
+<ol>
+  <li>
+  \(\#\LS \alpha^n<\beta^{n+1} \MM f\LP\beta^{n+1}\RP\leq f\LP\alpha^n\RP\RS\leq 1\)
+  </li>
+  <li>
+  \(\#\LS \alpha^n>\gamma^{n-1} \MM f\LP\gamma^{n-1}\RP\geq f\LP\alpha^n\RP\RS\leq 1\)
+  </li>
+</ol>
 </div>
+<div class="slidecolumn">
+{{<centerimg "/DiscMorse/Complex_f.png" 500>}}
+</div>
+</div>
+
+---
+
+<div class="sliderow">
+<div class="slidecolumn" style="
+align-items: left;
+font-size: x-large;
+min-width:50% !important;
+">
+<ol>
+<li>
+\(\#\LS \alpha^n<\beta^{n+1} \MM f\LP\beta^{n+1}\RP\leq f\LP\alpha^n\RP\RS\leq 1\)
+</li>
+<li>
+\(\#\LS \alpha^n>\gamma^{n-1} \MM f\LP\gamma^{n-1}\RP\geq f\LP\alpha^n\RP\RS\leq 1\)
+</li>
+</ol>
+</div>
+<div class="slidecolumn">
+{{<centerimg "/DiscMorse/Complex_f_Not_Morse.png" 500>}}
+</div>
+</div>
+
 
 ---
 
@@ -221,7 +261,25 @@ We should note that for all the \\(\alpha\in K\\) at least one of \\(1.\\) and \
 
 ---
 
+<div class="sliderow">
+<div class="slidecolumn" style="
+align-items: left;
+font-size: x-large;
+min-width:50% !important;
+">
+<ol>
+<li>
+\(\#\LS \alpha^n<\beta^{n+1} \MM f\LP\beta^{n+1}\RP\leq f\LP\alpha^n\RP\RS=0\)
+</li>
+<li>
+\(\#\LS \alpha^n>\gamma^{n-1} \MM f\LP\gamma^{n-1}\RP\geq f\LP\alpha^n\RP\RS=0\)
+</li>
+</ol>
+</div>
+<div class="slidecolumn">
 {{<centerimg "/DiscMorse/Complex_crit.png" 500>}}
+</div>
+</div>
 
 ---
 <!-- {{<canvas jp_funct>}} -->
@@ -256,21 +314,39 @@ simplicial collapse.
 
 ### Maximal Face
 
-A face \\(\sigma\in K\\) is called maximal if there is no \\(\beta\in K\\) so that \\(\sigma<\beta\\).
+<div class="sliderow">
+<div class="slidecolumn" style="
+align-items: left;
+font-size: x-large;
+min-width:50% !important;
+text-align: left !important;
+">
+A face \(\sigma\in K\) is called maximal if there is no \(\beta\in K\) so that \(\sigma<\beta\).
 
----
-
-{{<centerimg "/DiscMorse/Facets.png" 500>}}
+</div>
+<div class="slidecolumn">
+{{<centerimg "/DiscMorse/Facets.png" 400>}}
+</div>
+</div>
 
 ---
 
 ### Free face
 
-A simplex \\(\tau\\) of a simplicial complex \\(K\\) is called a free face if \\(\tau\\) is a face of exactly one maximal face.
+<div class="sliderow">
+<div class="slidecolumn" style="
+align-items: left;
+font-size: x-large;
+min-width:50% !important;
+text-align: left !important;
+">
+A simplex \(\tau\) of a simplicial complex \(K\) is called a free face if \(\tau\) is a face of exactly one maximal face.
+</div>
+<div class="slidecolumn">
+{{<centerimg "/DiscMorse/Free_face.png" 400>}}
+</div>
+</div>
 
----
-
-{{<centerimg "/DiscMorse/Free_face.png" 500>}}
 
 ---
 
