@@ -14,7 +14,8 @@ organizations:
     url: https://www.uiowa.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Skilled embedded software engineer with a passion for problem solving. Quick learner with the ability and desire to jump into new roles. Worked extensively with AUTOSAR and automotive development standards. Experienced in optimizing for automotive microcontrollers. Current mathematics Masters student, looking to apply math background in new and interesting ways. Highly efficient in agile development environments.
+bio: Skilled embedded software engineer with a passion for problem solving.
+#  Quick learner with the ability and desire to jump into new roles. Worked extensively with AUTOSAR and automotive development standards. Experienced in optimizing for automotive microcontrollers. Current mathematics Masters student, looking to apply math background in new and interesting ways. Highly efficient in agile development environments.
 
 # Interests to show in About widget
 interests:

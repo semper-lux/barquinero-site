@@ -1,6 +1,6 @@
 ---
 title: "Discrete Morse Theory"
-date: "2022-09-02"
+date: "2022-10-04"
 summary: "Brief overview of Discrete Morse Theory"
 tags: [
     "Talks",
