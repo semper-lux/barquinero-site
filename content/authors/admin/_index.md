@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Joe Starr
+title: Miguel Barquinero
 
 # Is this the primary user of the site?
 superuser: true
@@ -14,14 +14,14 @@ organizations:
     url: https://www.uiowa.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Skilled embedded software engineer with a passion for problem solving.
+bio: BIO!
 #  Quick learner with the ability and desire to jump into new roles. Worked extensively with AUTOSAR and automotive development standards. Experienced in optimizing for automotive microcontrollers. Current mathematics Masters student, looking to apply math background in new and interesting ways. Highly efficient in agile development environments.
 
 # Interests to show in About widget
 interests:
   - Low Dimensional Topology
-  - Knot Theory
-  - Computational Methods
+  - Hyperbolic Geometry
+  - Geometric Group Theory
 
 # Education to show in About widget
 education:
@@ -29,12 +29,9 @@ education:
     - course: PhD in Mathematics
       institution: University of Iowa
       year: Fall 2021 - Present
-    - course: Bachelor of Science in Computer Science
-      institution: University of Michigan - Dearborn
-      year: Fall 2013 - Fall 2016
-    - course: Bachelor of Science in CIS Mathematics
-      institution: University of Michigan - Dearborn
-      year: Fall 2013 - Fall 2016
+    - course: Bachelor of Science in Mathematics
+      institution: Florida State University
+      year: Fall 2018 - Fall 2020
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -52,10 +49,10 @@ social:
   #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/Joecstarr/
-  - icon: linkedin
+    link: https://github.com/MiguelBarq/
+  - icon: twitter
     icon_pack: fab
-    link: https://www.linkedin.com/in/joseph-C-starr/
+    link: https://twitter.com/MiguelBarquine1
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
@@ -65,7 +62,7 @@ social:
 #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'joseph-starr@uiowa.edu'
+email: 'barquinero@uiowa.edu'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true

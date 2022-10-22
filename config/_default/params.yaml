@@ -9,7 +9,7 @@ appearance:
   theme_day: dracula
   theme_night: dracula
   font: minimal
-  font_size: s
+  font_size: m
 
 # SEO
 
