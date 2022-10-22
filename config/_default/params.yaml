@@ -6,8 +6,8 @@
 # Appearance
 
 appearance:
-  theme_day: dracula
-  theme_night: dracula
+  theme_day: minimal
+  theme_night: dark
   font: minimal
   font_size: m
 

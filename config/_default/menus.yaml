@@ -5,19 +5,19 @@
 
 main:
   - name: Home
-    url: '#about'
+    url: '/#about'
     weight: 10
   - name: Experience
-    url: '#experience'
+    url: '/#experience'
     weight: 40
   - name: Teaching
-    url: '#teaching'
+    url: '/#teaching'
     weight: 50
   - name: Resources
-    url: '#resources'
+    url: '/#resources'
     weight: 60
   - name: Talks
-    url: '#talks'
+    url: '/researchtab'
     weight: 70
 
 # Link to a PDF of your resume/CV from the menu.
