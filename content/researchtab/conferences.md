@@ -7,9 +7,9 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 2
+weight: 3
 
-title: 'Talks'
+title: 'Attended Workshops and Conferences'
 subtitle:
 
 content:
