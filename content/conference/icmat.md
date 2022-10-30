@@ -1,7 +1,7 @@
 ---
 title: "Graduate school on Geometric Group Theory and Low Dimensional Topology"
 date: "2022-04-16T19:57:57-05:00"
-summary: "An eleven day workshop in topics relating to geometric group theory and low dimensional topology."
+summary: "An eleven day workshop in Madrid on topics relating to geometric group theory and low dimensional topology."
 tags: [
     "GGT",
 ]
