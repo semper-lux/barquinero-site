@@ -7,20 +7,21 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 70
+weight: 1
 
-title: 'Resources'
-subtitle:
+title: 'Conway - Complex Analysis I'
+subtitle: WIP
 
 content:
   # Page type to display. E.g. post, event, publication...
-  page_type: resources
+  page_type: publication
   # Choose how many pages you would like to display (0 = all pages)
-  count: 0
+  count: 5
   # Filter on criteria
   filters:
     author: ''
     category: ''
+    tag: ''
     exclude_featured: false
     exclude_future: false
     exclude_past: false
@@ -36,5 +37,5 @@ design:
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view: 1
+  view: 2
 ---

@@ -7,21 +7,21 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 60
+weight: 1
 
-title: 'Teaching'
-subtitle:
+title: 'Hatcher - Algebraic Topology'
+subtitle: As the author has stated publicly in the past that they request solutions not be posted online, this contains only proof sketches and hints. Solutions can be made available upon individual request. <br> WIP
 
 content:
   # Page type to display. E.g. post, event, publication...
-  page_type: teaching
+  page_type: publication
   # Choose how many pages you would like to display (0 = all pages)
-  count: 3
+  count: 5
   # Filter on criteria
   filters:
     author: ''
     category: ''
-    tag: 'TA'
+    tag: ''
     exclude_featured: false
     exclude_future: false
     exclude_past: false

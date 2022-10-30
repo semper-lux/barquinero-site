@@ -7,15 +7,16 @@ main:
   - name: Home
     url: '/#about'
     weight: 10
-  - name: Teaching
-    url: '/#teaching'
-    weight: 50
-  - name: Resources
-    url: '/#resources'
-    weight: 60
-  - name: Talks
+  - name: Research
     url: '/researchtab'
-    weight: 70
+    weight: 20
+  - name: Teaching
+    url: '/teachingtab'
+    weight: 30
+  - name: Resources
+    url: '/resources'
+    weight: 40
+
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.

@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Miguel Barquinero
+title: Miguel Barquinero (TEMP PHOTO)
 
 # Is this the primary user of the site?
 superuser: true

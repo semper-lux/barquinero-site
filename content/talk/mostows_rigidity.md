@@ -1,7 +1,7 @@
 ---
 title: "Mostow's Rigidity Theorem"
 date: "2022-10-11T19:57:57-05:00"
-summary: "Following *Foundations of Hyperbolic Manifolds* by John Ratcliffe. A series of three talks presented together with another member of the RTG, Nicholas Cecil, over the course of three successive talks."
+summary: "Following *Foundations of Hyperbolic Manifolds* by John Ratcliffe. A series of three talks presented together with another member of the UI Topology/Geometry RTG, Nicholas Cecil, over the course of three consecutive weeks."
 tags: [
     "RTG",
 ]
