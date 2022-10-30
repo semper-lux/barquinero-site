@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Miguel Barquinero # Website name
-baseURL: miguel-barquinero.com # Website URL
+baseURL: 'miguel-barquinero.com' # Website URL
 
 ############################
 ## LANGUAGE
