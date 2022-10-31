@@ -53,6 +53,9 @@ social:
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/MiguelBarquine1
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/enrique-barquinero-8332341a2/
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,

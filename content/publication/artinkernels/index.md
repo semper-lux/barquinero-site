@@ -33,7 +33,7 @@ featured: false
 #   Uncomment and edit lines below to show custom links.
 links:
 - name: arXiv
-url: arxiv.org/abs/2004.13206v3
+  url: https://arxiv.org/abs/2004.13206v3
 # icon_pack: fab
 #   icon: twitter
 
