@@ -1,11 +1,7 @@
 ---
 title: "Graphical splittings of Artin kernels"
-authors:
-  - Enrique Miguel Barquinero
-  - Lorenzo Ruffoni
-  - Kaidi Ye
+authors: ["admin", "lorenzo-ruffoni", Kaidi Ye]
 date: 2021-01-24T19:57:57-05:00
-doi: "10.1515/jgth-2020-0124"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2022-10-23T19:57:57-05:00
@@ -32,6 +28,8 @@ featured: false
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
 links:
+- name: Journal of Group Theory
+  url: https://www.degruyter.com/document/doi/10.1515/jgth-2020-0124/html
 - name: arXiv
   url: https://arxiv.org/abs/2004.13206v3
 # icon_pack: fab
