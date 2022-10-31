@@ -76,6 +76,8 @@ highlight_name: true
 
 I'm Enrique "Miguel" Barquinero, a PhD student at the University of Iowa studying Topology. This website hosts my papers, talks, and other academic resources as well as contact information.
 
+If you are a student looking for course information, see the [teaching tab](/teachingtab).
+
 *This website is currently in development, but is fully functional for the content it already contains.*
 
 {{<cuscss>}}
