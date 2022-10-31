@@ -1,7 +1,7 @@
 ---
 title: "Chain complexes and homology"
 date: "2022-02-15T19:57:57-05:00"
-summary: "Following Chapter 1 of *Homological Algebra* by Wiebel. Definitions, homotopy of chain complexes, homology."
+summary: "Following Chapter 1 of *An Introduction to Homological Algebra* by Weibel. Definitions, homotopy of chain complexes, homology."
 tags: [
     "RTG",
 ]
