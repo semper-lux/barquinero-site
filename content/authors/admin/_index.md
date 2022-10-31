@@ -6,7 +6,7 @@ title: Miguel Barquinero (TEMP PHOTO)
 superuser: true
 
 # Role/position/tagline
-role: Graduate Teaching Assistant
+role: PhD Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -14,7 +14,7 @@ organizations:
     url: https://math.uiowa.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Graduate student in Mathematics at the University of Iowa
+bio: PhD student in Mathematics at the University of Iowa
 #  Quick learner with the ability and desire to jump into new roles. Worked extensively with AUTOSAR and automotive development standards. Experienced in optimizing for automotive microcontrollers. Current mathematics Masters student, looking to apply math background in new and interesting ways. Highly efficient in agile development environments.
 
 # Interests to show in About widget
