@@ -47,15 +47,18 @@ social:
   # - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
   #   icon_pack: fas
   #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/MiguelBarq/
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/MiguelBarquine1
+  - icon: envelope
+    icon_pack: far
+    link: mailto:miguel.barquinero.2@gmail.com
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/miguel-barquinero-8332341a2/
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/MiguelBarquine1
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/MiguelBarq/
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
@@ -71,5 +74,8 @@ email: 'barquinero@uiowa.edu'
 highlight_name: true
 ---
 
+I'm Enrique "Miguel" Barquinero, a PhD student at the University of Iowa studying Topology. This website hosts my papers, talks, and other academic resources as well as contact information.
+
+*This website is currently in development, but is fully functional for the content it already contains.*
 
 {{<cuscss>}}
