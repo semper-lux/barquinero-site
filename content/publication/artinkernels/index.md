@@ -1,8 +1,8 @@
 ---
 title: "Graphical splittings of Artin kernels"
 authors:
-  - Miguel Barquinero
-  - Lorenzo Ruffoni
+  - admin
+  - lorenzo-ruffoni
   - Kaidi Ye
 date: 2021-01-24T19:57:57-05:00
 
