@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Miguel Barquinero (TEMP PHOTO)
+title: Miguel Barquinero
 
 # Is this the primary user of the site?
 superuser: true
@@ -18,7 +18,6 @@ organizations:
 
 # Short bio (displayed in user profile at end of posts)
 bio: PhD student in Mathematics at the University of Iowa
-#  Quick learner with the ability and desire to jump into new roles. Worked extensively with AUTOSAR and automotive development standards. Experienced in optimizing for automotive microcontrollers. Current mathematics Masters student, looking to apply math background in new and interesting ways. Highly efficient in agile development environments.
 
 # Interests to show in About widget
 interests:
