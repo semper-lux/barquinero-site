@@ -21,9 +21,9 @@ bio: PhD student in Mathematics at the University of Iowa
 
 # Interests to show in About widget
 interests:
-  - Low Dimensional Topology
-  - Hyperbolic Geometry
-  - Geometric Group Theory
+  - Low dimensional topology
+  - Contact/symplectic geometry
+  - Floer homologies
 
 # Education to show in About widget
 education:
