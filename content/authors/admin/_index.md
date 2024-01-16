@@ -52,12 +52,12 @@ social:
   - icon: envelope
     icon_pack: far
     link: mailto:danielle.barquinero@gmail.com
-  #- icon: linkedin
-  #  icon_pack: fab
-  #  link: https://www.linkedin.com/in/miguel-barquinero-8332341a2/
-  #- icon: twitter
-  #  icon_pack: fab
-  #  link: https://twitter.com/MiguelBarquine1
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/danielle-barquinero-8332341a2/
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/dani_barquinero
   - icon: github
     icon_pack: fab
     link: https://github.com/semper-lux/
