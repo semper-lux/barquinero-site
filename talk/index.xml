@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks | Danielle Barquinero</title>
+    <link>https://danielle-barquinero.com/talk/</link>
+      <atom:link href="https://danielle-barquinero.com/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Talks</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 11 Oct 2022 19:57:57 -0500</lastBuildDate>
+    <image>
+      <url>https://danielle-barquinero.com/media/icon_hub5f3444703621f41c46b2337725a054d_23504_512x512_fill_lanczos_center_3.png</url>
+      <title>Talks</title>
+      <link>https://danielle-barquinero.com/talk/</link>
+    </image>
+    
+    <item>
+      <title>Mostow&#39;s Rigidity Theorem</title>
+      <link>https://danielle-barquinero.com/talk/mostows_rigidity/</link>
+      <pubDate>Tue, 11 Oct 2022 19:57:57 -0500</pubDate>
+      <guid>https://danielle-barquinero.com/talk/mostows_rigidity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dehn-Nielsen-Baer Theorem and Milnor-Svarc Lemma</title>
+      <link>https://danielle-barquinero.com/talk/dnb_milnor_svarc/</link>
+      <pubDate>Fri, 17 Jun 2022 19:57:57 -0500</pubDate>
+      <guid>https://danielle-barquinero.com/talk/dnb_milnor_svarc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chain complexes and homology</title>
+      <link>https://danielle-barquinero.com/talk/homology/</link>
+      <pubDate>Tue, 15 Feb 2022 19:57:57 -0500</pubDate>
+      <guid>https://danielle-barquinero.com/talk/homology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alexander&#39;s Method</title>
+      <link>https://danielle-barquinero.com/talk/mcg_alexander_method/</link>
+      <pubDate>Tue, 28 Sep 2021 19:57:57 -0500</pubDate>
+      <guid>https://danielle-barquinero.com/talk/mcg_alexander_method/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

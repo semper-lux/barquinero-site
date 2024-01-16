@@ -1,0 +1,47 @@
+mjx-container[jax="CHTML"][display="true"] mjx-math{
+font-size: xx-large;
+}
+
+.present > p,li{
+text-align: left !important;
+}
+.sliderow {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center
+}
+
+.slidecolumn {
+  flex: 50%;
+  padding: 3%;
+}
+
+.canvrow {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center
+}
+
+.canvcolumn {
+  flex: 50%;
+  padding: 3%;
+}
+
+.dark .card
+{
+  background: #44475a;
+}
+.exp-company > a{
+  color: #bd93f9 !important;
+}
+.experience .m-2 .border, .experience .col.border-right {
+  /* background-color: #bd93f9 !important; */
+  border-color:#bd93f9 !important;
+}
+.experience .m-2 .border.exp-fill {
+  background-color: #bd93f9 !important;
+}

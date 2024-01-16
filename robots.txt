@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://danielle-barquinero.com/sitemap.xml
