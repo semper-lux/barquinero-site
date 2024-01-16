@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Miguel Barquinero
+title: Danielle Barquinero
 
 # Is this the primary user of the site?
 superuser: true
@@ -51,16 +51,16 @@ social:
   #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: envelope
     icon_pack: far
-    link: mailto:miguel.barquinero.2@gmail.com
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/in/miguel-barquinero-8332341a2/
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/MiguelBarquine1
+    link: mailto:danielle.barquinero@gmail.com
+  #- icon: linkedin
+  #  icon_pack: fab
+  #  link: https://www.linkedin.com/in/miguel-barquinero-8332341a2/
+  #- icon: twitter
+  #  icon_pack: fab
+  #  link: https://twitter.com/MiguelBarquine1
   - icon: github
     icon_pack: fab
-    link: https://github.com/MiguelBarq/
+    link: https://github.com/semper-lux/
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
@@ -70,16 +70,14 @@ social:
 #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'miguel.barquinero.2@gmail.com'
+email: 'danielle.barquinero@gmail.com'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-I'm Enrique "Miguel" Barquinero, a PhD student at the University of Iowa studying Topology. This website hosts my papers, talks, and other academic resources as well as contact information.
+I'm Danielle "Dani" Barquinero, a PhD student at the University of Iowa studying Topology. This website hosts my papers, talks, and other academic resources as well as contact information.
 
 If you are a student looking for course information, see the [teaching tab](/teachingtab).
-
-*This website is currently in development, but is fully functional for the content it already contains.*
 
 {{<cuscss>}}
