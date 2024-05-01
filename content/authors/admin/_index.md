@@ -51,10 +51,10 @@ social:
   #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: envelope
     icon_pack: far
-    link: mailto:danielle.barquinero@gmail.com
+    link: mailto:danielle.Barquinero@gmail.com
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/danielle-barquinero-8332341a2/
+    link: https://www.linkedin.com/in/danielle-barquinero/
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/dani_barquinero
@@ -65,9 +65,9 @@ social:
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
 # and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: uploads/resume.pdf
+- icon: cv
+  icon_pack: ai
+  link: /authors/admin/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: 'danielle.barquinero@gmail.com'
