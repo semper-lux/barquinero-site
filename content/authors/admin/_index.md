@@ -54,7 +54,7 @@ social:
     link: mailto:danielle.Barquinero@gmail.com
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/danielle-barquinero/
+    link: https://www.linkedin.com/in/danielle-Barquinero/
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/dani_barquinero
@@ -67,10 +67,10 @@ social:
 # and uncomment the lines below.
 - icon: cv
   icon_pack: ai
-  link: /authors/admin/resume.pdf
+  link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'danielle.barquinero@gmail.com'
+email: 'danielle.Barquinero@gmail.com'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
