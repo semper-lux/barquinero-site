@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ERC | Danielle Barquinero</title>
+    <link>https://danielle-barquinero.com/tag/erc/</link>
+      <atom:link href="https://danielle-barquinero.com/tag/erc/index.xml" rel="self" type="application/rss+xml" />
+    <description>ERC</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 22 Jul 2024 17:09:26 +0000</lastBuildDate>
+    <image>
+      <url>https://danielle-barquinero.com/media/icon_hub5f3444703621f41c46b2337725a054d_23504_512x512_fill_lanczos_center_3.png</url>
+      <title>ERC</title>
+      <link>https://danielle-barquinero.com/tag/erc/</link>
+    </image>
+    
+    <item>
+      <title>Three West Post, Volume 1 Issue 1</title>
+      <link>https://danielle-barquinero.com/erc/vol1_iss1/</link>
+      <pubDate>Mon, 22 Jul 2024 17:09:26 +0000</pubDate>
+      <guid>https://danielle-barquinero.com/erc/vol1_iss1/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://danielle-barquinero.com/docs/3W_Post-1.pdf&#34;&gt;Volume 1, Issue 1&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Three West Post, Volume 1 Issue 2</title>
+      <link>https://danielle-barquinero.com/erc/vol1_iss2/</link>
+      <pubDate>Mon, 22 Jul 2024 17:09:26 +0000</pubDate>
+      <guid>https://danielle-barquinero.com/erc/vol1_iss2/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://danielle-barquinero.com/docs/3W_Post-2.pdf&#34;&gt;Volume 1, Issue 1&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Three West Post, Volume 1 Issue 3</title>
+      <link>https://danielle-barquinero.com/erc/vol1_iss3/</link>
+      <pubDate>Mon, 22 Jul 2024 17:09:26 +0000</pubDate>
+      <guid>https://danielle-barquinero.com/erc/vol1_iss3/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://danielle-barquinero.com/docs/3W_Post-3.pdf&#34;&gt;Volume 1, Issue 1&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Three West Post, Volume 1 Issue 4</title>
+      <link>https://danielle-barquinero.com/erc/vol1_iss4/</link>
+      <pubDate>Mon, 22 Jul 2024 17:09:26 +0000</pubDate>
+      <guid>https://danielle-barquinero.com/erc/vol1_iss4/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://danielle-barquinero.com/docs/3W_Post-4.pdf&#34;&gt;Volume 1, Issue 1&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
