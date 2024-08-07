@@ -1,5 +1,5 @@
 ---
-title: Three West Post, Volume 1 Issue 1
+title: Three West Post, Volume 1 Issue 5
 date: 2024-08-03T17:09:26.037Z
 featured: true
 summary:  "Steps Toward A Peaceful Patio"
