@@ -1,6 +1,6 @@
 ---
 title: Three West Post, Volume 1 Issue 3
-date: 2024-07-22T17:09:26.037Z
+date: 2024-07-29T17:09:26.037Z
 featured: true
 summary:  "Cool Pack Scandal Update"
 tags:
@@ -13,4 +13,4 @@ sitemap:
   weight: 0.4
 ---
 
-[Volume 1, Issue 1](/docs/3W_Post-3.pdf)
+[Volume 1, Issue 3](/docs/3W_Post-3.pdf)
